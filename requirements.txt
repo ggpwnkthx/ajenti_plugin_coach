@@ -1,2 +1,1 @@
 aj
-ajenti.plugin.core

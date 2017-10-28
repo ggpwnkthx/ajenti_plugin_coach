@@ -17,14 +17,6 @@ class ItemProvider(SidebarItemProvider):
                 'attach': None,
                 'id': 'category:cluster',
                 'name': _('Cluster'),
-                'children': [
-                    {
-                        'attach': 'category:cluster',
-                        'name': 'Virtual Machines',
-                        'icon': 'desktop',
-                        'url': '/view/cluster/virtual-machines',
-                        'children': []
-                    },
-                ]
+                'children': []
             },
 		]
