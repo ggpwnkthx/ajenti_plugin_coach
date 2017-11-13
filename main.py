@@ -17,6 +17,15 @@ class ItemProvider(SidebarItemProvider):
                 'attach': None,
                 'id': 'category:cluster',
                 'name': _('Cluster'),
-                'children': []
+                'children': 
+                [ 
+                    {
+                        'attach': 'category:cluster',
+                        'name': 'Users',
+                        'icon': 'users',
+                        'url': '/view/cluster/users',
+                        'children': [],
+                    },
+                ]
             },
 		]

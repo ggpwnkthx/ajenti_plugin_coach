@@ -9,4 +9,8 @@ dependencies:
     - !!python/object:aj.plugins.PluginDependency { plugin_name: core }
 resources:
     - 'resources/js/module.es'
+    - 'resources/js/routing.es'
+    - 'resources/js/controllers/users.es'
+    - 'resources/partial/users.html'
+    - 'resources/js/services/coach_users.es'
     - 'ng:ajenti.coach'

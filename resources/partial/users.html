@@ -1,0 +1,11 @@
+<br />
+<div class="list-group" ng:show="count > 0">
+	<a ng:repeat="(type, data) in types" class="list-group-item list-group-item-large" href="{{data.url}}">
+		<div class="list-group-main">
+			<div class="list-group-icon">
+				<i class="fa fa-{{data.icon}}"></i> {{type}}
+			</div>
+		</div>
+	</a>
+</div>
+<h3 ng:show="count == 0">No user type plugins found.</h3>
