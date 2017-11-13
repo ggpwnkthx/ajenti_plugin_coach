@@ -21,6 +21,7 @@ class ItemProvider(SidebarItemProvider):
                 [ 
                     {
                         'attach': 'category:cluster',
+                        'id': 'category:cluster:users',
                         'name': 'Users',
                         'icon': 'users',
                         'url': '/view/cluster/users',
